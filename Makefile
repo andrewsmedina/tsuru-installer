@@ -3,3 +3,6 @@ test-deps:
 
 test: test-deps
 	@py.test .
+
+run:
+	@honcho start
